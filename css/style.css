@@ -1,0 +1,104 @@
+body {
+  font: 100% "Roboto", sans-serif;
+  color: #212121;
+}
+body a {
+  text-decoration: none;
+  color: #212121;
+}
+body ul {
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  padding-left: 24px;
+  padding-right: 24px;
+  border: #212121 solid 1px;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header_nav .logo {
+  padding-right: 30px;
+}
+header .header_nav li a svg {
+  padding-left: 8px;
+}
+header .header_nav, header .header_ul {
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+header li a {
+  padding-right: 38px;
+}
+header .header_button {
+  display: flex;
+  border: 1px solid #f46a35;
+  border-radius: 10px;
+  width: 148px;
+  height: 36px;
+  background: #f46a35;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .header_button a {
+  font-size: 14px;
+  line-height: 157%;
+  color: #fff;
+}
+
+.section1 {
+  border: #212121 solid 1px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 48px;
+  padding-bottom: 155px;
+}
+.section1 div h1 {
+  padding-bottom: 36px;
+  padding-top: 95px;
+}
+.section1 div div ul {
+  display: flex;
+}
+.section1 div div ul .link1 {
+  display: flex;
+  border: 1px solid #f46a35;
+  border-radius: 10px;
+  width: 160px;
+  height: 48px;
+  background: #f46a35;
+  justify-content: center;
+  align-items: center;
+}
+.section1 div div ul .link1 a {
+  font-size: 14px;
+  line-height: 157%;
+  color: #fff;
+}
+.section1 div div ul .link2 {
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 160px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+}
+.section1 div div div p {
+  padding-bottom: 7px;
+}
+.section1 div div div a {
+  color: #f46a35;
+}
+.section1 div img {
+  height: 120%;
+}
+
+.section_img {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */

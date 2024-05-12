@@ -1,0 +1,115 @@
+$font-stack: 'Roboto', sans-serif;
+$primary-color:#212121;
+$background-color: #f46a35;
+$button-text: #fff;
+$link-color:#f46a35;
+$section-border: #212121 solid 1px;
+body{   
+    font: 100% $font-stack;
+    color: $primary-color;
+    
+    a{
+        text-decoration: none;
+        color: $primary-color;
+    }
+    ul{
+        list-style-type: none;
+    }
+}
+
+header{
+    display: flex;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: $section-border;
+    justify-content: space-between;
+    align-items: center;
+    
+    .header_nav .logo{
+        padding-right: 30px;
+    }
+    .header_nav li a svg{
+        padding-left: 8px;
+    }
+    .header_nav, .header_ul{
+        display: flex;
+        padding: 0;
+        align-items: center
+    }
+    li a{
+        padding-right: 38px;
+    }
+    .header_button{
+        display: flex;
+        border: 1px solid $background-color;
+        border-radius: 10px;
+        width: 148px;
+        height: 36px;
+        background: $background-color;
+        justify-content: flex-end;
+        align-items: center;
+        a{
+            font-size: 14px;
+            line-height: 157%;
+            color:$button-text;
+        }
+    }
+ 
+}
+
+.section1{
+    border: $section-border;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 48px;
+    padding-bottom: 155px;
+    div{
+        h1{
+            padding-bottom: 36px;
+            padding-top: 95px;
+        }
+        div ul{
+            display: flex;
+        }
+        div ul .link1{
+            display: flex;
+            border: 1px solid $background-color;
+            border-radius: 10px;
+            width: 160px;
+            height: 48px;
+            background: $background-color;
+            justify-content: center;
+            align-items: center;
+            a{
+                font-size: 14px;
+                line-height: 157%;
+                color:$button-text;
+            }
+        }
+        div ul .link2{
+            display: flex;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            width: 160px;
+            height: 48px;
+            justify-content: center;
+            align-items: center;
+        }
+        div div p{
+            padding-bottom: 7px;
+        }        
+        div div a{
+            color: $link-color;
+        }
+        }
+    div img{
+        height: 120%;
+    }    
+}
+
+.section_img{
+    display: flex;
+    justify-content: space-between;
+}
