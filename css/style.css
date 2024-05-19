@@ -24,7 +24,8 @@ header .header_nav .logo {
 header .header_nav li a svg {
   padding-left: 8px;
 }
-header .header_nav, header .header_ul {
+header .header_nav,
+header .header_ul {
   display: flex;
   padding: 0;
   align-items: center;
@@ -98,7 +99,41 @@ header .header_button a {
   height: 120%;
 }
 
-.section_img {
+.owl-carousel {
+  padding-bottom: 208px;
+}
+.owl-carousel div {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.faq .conteiner {
+  max-width: 1200px;
+  margin: auto;
+}
+.faq .ui-accordion .ui-accordion-header {
+  border-radius: 22px;
+  padding: 20px 16px;
+  background-color: transparent;
+  border: solid 2px #f46a35;
+}
+.faq .ui-accordion .ui-accordion-header.ui-state-active {
+  background-color: antiquewhite;
+  border-bottom: none;
+  border-radius: 22px 22px 0 0;
+}
+.faq .ui-state-default,
+.faq .ui-widget-content .ui-state-default,
+.faq .ui-widget-header .ui-state-default,
+.faq .ui-button,
+.faq html .ui-button.ui-state-disabled:hover,
+.faq html .ui-button.ui-state-disabled:active {
+  border: solid 2px #f46a35;
+  color: #212121;
+}
+.faq .ui-accordion .ui-accordion-content {
+  background-color: antiquewhite;
+  border: solid 2px #f46a35;
+  border-radius: 0 0 22px 22px;
+  border-top: none;
 }/*# sourceMappingURL=style.css.map */

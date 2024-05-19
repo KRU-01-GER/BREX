@@ -1,45 +1,52 @@
 $font-stack: 'Roboto', sans-serif;
-$primary-color:#212121;
+$primary-color: #212121;
 $background-color: #f46a35;
 $button-text: #fff;
-$link-color:#f46a35;
+$link-color: #f46a35;
 $section-border: #212121 solid 1px;
-body{   
+
+body {
     font: 100% $font-stack;
     color: $primary-color;
-    
-    a{
+
+    a {
         text-decoration: none;
         color: $primary-color;
     }
-    ul{
+
+    ul {
         list-style-type: none;
     }
 }
 
-header{
+header {
     display: flex;
     padding-left: 24px;
     padding-right: 24px;
     border: $section-border;
     justify-content: space-between;
     align-items: center;
-    
-    .header_nav .logo{
+
+    .header_nav .logo {
         padding-right: 30px;
     }
-    .header_nav li a svg{
+
+    .header_nav li a svg {
         padding-left: 8px;
     }
-    .header_nav, .header_ul{
+
+    .header_nav,
+    .header_ul {
         display: flex;
         padding: 0;
         align-items: center
     }
-    li a{
+
+    li a {
         padding-right: 38px;
     }
-    .header_button{
+
+    .header_button {
         display: flex;
         border: 1px solid $background-color;
         border-radius: 10px;
@@ -48,16 +55,17 @@ header{
         background: $background-color;
         justify-content: flex-end;
         align-items: center;
-        a{
+
+        a {
             font-size: 14px;
             line-height: 157%;
-            color:$button-text;
+            color: $button-text;
         }
     }
- 
+
 }
 
-.section1{
+.section1 {
     border: $section-border;
     width: 100%;
     height: auto;
@@ -65,15 +73,18 @@ header{
     justify-content: space-between;
     padding-left: 48px;
     padding-bottom: 155px;
-    div{
-        h1{
+
+    div {
+        h1 {
             padding-bottom: 36px;
             padding-top: 95px;
         }
-        div ul{
+
+        div ul {
             display: flex;
         }
-        div ul .link1{
+
+        div ul .link1 {
             display: flex;
             border: 1px solid $background-color;
             border-radius: 10px;
@@ -82,13 +93,15 @@ header{
             background: $background-color;
             justify-content: center;
             align-items: center;
-            a{
+
+            a {
                 font-size: 14px;
                 line-height: 157%;
-                color:$button-text;
+                color: $button-text;
             }
         }
-        div ul .link2{
+
+        div ul .link2 {
             display: flex;
             border: 1px solid rgba(0, 0, 0, 0.1);
             border-radius: 10px;
@@ -97,19 +110,61 @@ header{
             justify-content: center;
             align-items: center;
         }
-        div div p{
+
+        div div p {
             padding-bottom: 7px;
-        }        
-        div div a{
+        }
+
+        div div a {
             color: $link-color;
         }
-        }
-    div img{
+    }
+
+    div img {
         height: 120%;
-    }    
+    }
 }
 
-.section_img{
-    display: flex;
-    justify-content: space-between;
+.owl-carousel {
+    padding-bottom: 208px;
+
+    div {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.faq {
+    .conteiner {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .ui-accordion .ui-accordion-header {
+        border-radius: 22px;
+        padding: 20px 16px;
+        background-color: transparent;
+        border: solid 2px $background-color;
+        &.ui-state-active{
+            background-color: antiquewhite;
+            border-bottom: none;
+            border-radius: 22px 22px 0 0;
+        }
+    }
+
+    .ui-state-default,
+    .ui-widget-content .ui-state-default,
+    .ui-widget-header .ui-state-default,
+    .ui-button,
+    html .ui-button.ui-state-disabled:hover,
+    html .ui-button.ui-state-disabled:active {
+        border: solid 2px $background-color;
+        color: $primary-color;
+    }
+    .ui-accordion .ui-accordion-content{
+        background-color: antiquewhite;
+        border: solid 2px $background-color;
+        border-radius: 0 0 22px 22px;
+        border-top: none;
+    }
 }
