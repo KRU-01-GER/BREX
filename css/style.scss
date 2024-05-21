@@ -19,6 +19,11 @@ body {
     }
 }
 
+@media screen and (min-width: 581px){
+    .switch-wrap h1 {
+      font-size: 32px;
+    }
+  }
 header {
     display: flex;
     padding-left: 24px;
@@ -166,5 +171,12 @@ header {
         border: solid 2px $background-color;
         border-radius: 0 0 22px 22px;
         border-top: none;
+    }
+}
+
+.solution{
+    text-align: center;
+    h1{
+        padding-bottom: 8px;
     }
 }
